@@ -71,7 +71,13 @@ module.exports.connections = {
     database  : 'YOUR_POSTGRES_DB'
   }
 
+// MongoDB 2.4 database added.  Please make note of these credentials:
 
+//    Root User:     admin
+//    Root Password: ilesNGsyFtkA
+//    Database Name: sailsangular
+
+// Connection URL: mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/
   // More adapters:
   // https://github.com/balderdashy/sails
 
